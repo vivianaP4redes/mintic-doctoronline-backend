@@ -1,10 +1,13 @@
 {
   "name": "tu_doctoronline-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "sitio web para gestion de citas medicas",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tu_doctoronline",
